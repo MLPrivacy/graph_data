@@ -5,18 +5,11 @@
 - We have submitted an updated artifact to Zenodo at [https://doi.org/10.5281/zenodo.14710401](https://doi.org/10.5281/zenodo.14710401), which includes newly created Bash scripts for both DPA-GNN and the baselines. The experimental results can be reproduced using either of the following methods: (1) running the provided Bash scripts or (2) executing commands manually, as detailed below.  
 
 ### **DPA-GNN**  
-**(1) Using the Bash script:**  
-```bash
-run_DPA-GNN.sh  
-```
-**Output:**  ` ./output_DPA-GNN/ `
+(1) Running the Bash script: `run_DPA-GNN.sh`, with output in `./output_DPA-GNN/`.
 
+(2) Running the following command, with output in `./output_results.txt`. 
+```python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_rate 0.05 --dataset cora```
 
-**(2) Running the command manually:**  
-```
-python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_rate 0.05 --dataset cora  
-```
-**Output:** ` ./output_results.txt` 
 
 
 ---
