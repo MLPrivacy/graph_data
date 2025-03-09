@@ -7,7 +7,7 @@
 ### **DPA-GNN**  
 (1) Running the Bash script: `run_DPA-GNN.sh`, with experimental results in `./output_DPA-GNN/`.
 
-(2) Running the following command, with experimental results in `./output_results.txt`. 
+(2) Executing the following command, with experimental results in `./output_results.txt`. 
 ```
 python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_rate 0.05 --dataset cora
 ```
