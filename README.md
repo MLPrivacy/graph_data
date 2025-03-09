@@ -1,4 +1,4 @@
-- The Bash script failed due to an incorrect value assigned to the `--epsilon_rate ${er}` parameter, leading to a negative privacy budget for labels and an invalid `delta_f` in the Gaussian noise configuration. (Review A1)  
+- The Bash script failed because the `--epsilon_rate` parameter should take the value of `${eps_r}`, but it was incorrectly assigned the computed value of `${er}`, resulting in a negative privacy budget for labels and an invalid `delta_f` in the Gaussian noise configuration. (Review A1)
 
 - The execution and output files of the baselines are stored in their respective `baselines` directories. (Review A2)  
 
