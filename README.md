@@ -1,3 +1,4 @@
+We thank all the reviewers for their constructive feedback. We have addressed the issues in the Bash script and improved the artifact as follows: 
 - The Bash script failed because the `--epsilon_rate` parameter should take the value of `${eps_r}`, but it was incorrectly assigned the computed value of `${er}`, resulting in a negative privacy budget for labels and an invalid `delta_f` in the Gaussian noise configuration. (Review A1)
 
 - The execution and output files for the baselines are stored in their respective `baselines` directories, with each baseline executed using the command specified in its corresponding `README`. (Review A2)
