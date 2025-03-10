@@ -13,34 +13,34 @@ python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_ra
 ```
 
 ### **Baselines**  
-(1) Running the Bash script: `run_{baselines name}.sh`, with experimental results in `\baselines\{baselines name}\output_{baselines name}\`.
+(1) Running the Bash script: `run_{baselines name}.sh`, with experimental results in `.\baselines\{baselines name}\output_{baselines name}\`.
 
-(2) Executing the command specified in each baseline's `README`, with experimental results in `\baselines\{baselines name}\output_{baselines name}.txt`. 
+(2) Executing the command specified in each baseline's `README`, with experimental results in `.\baselines\{baselines name}\output_{baselines name}.txt`. 
 
 
 ----------------------------------
 ----------------------------------
 这里的内容可以考虑下是否需要这么具体？
 #### **LPGNN+RR**  
-(1) Running the Bash script: `run_lpgnn_rr.sh`, with experimental results in `\baselines\LPGNN+RR\output_lpgnn_rr\`.
+(1) Running the Bash script: `run_lpgnn_rr.sh`, with experimental results in `.\baselines\LPGNN+RR\output_lpgnn_rr\`.
 
-(2) Executing the following command, with experimental results in `\baselines\LPGNN+RR\output_lpgnn_rr.txt`. 
+(2) Executing the following command, with experimental results in `.\baselines\LPGNN+RR\output_lpgnn_rr.txt`. 
 ```
 cd \baselines\LPGNN+RR>
 python run_lpgnn_rr.py --dataset cora --x_steps 2 --y_steps 2 --all_eps 8 --eps_rate 0.05 --y_eps 1  
 ```
 #### **RGNN+RR**  
-(1) Running the Bash script: `run_rgnn_rr.sh`, with experimental results in `\baselines\RGNN+RR\output_rgnn_rr\`.
+(1) Running the Bash script: `run_rgnn_rr.sh`, with experimental results in `.\baselines\RGNN+RR\output_rgnn_rr\`.
 
-(2) Executing the following command, with experimental results in `\baselines\RGNN+RR\output_rgnn_rr.txt`. 
+(2) Executing the following command, with experimental results in `.\baselines\RGNN+RR\output_rgnn_rr.txt`. 
 ```
 cd \baselines\RGNN+RR>
 python run_rgnn_rr.py --dataset cora --cols_to_group 20 --all_eps 8 --eps_rate 0.05 --y_eps 1.5 --xhops 4 --yhops 2 --num_clusters 32 --alpha 1 
 ```
 #### **Solitude+RR**  
-(1) Running the Bash script: `run_solitude_rr.sh`, with experimental results in `\baselines\Solitude+RR\output_solitude_rr\`.
+(1) Running the Bash script: `run_solitude_rr.sh`, with experimental results in `.\baselines\Solitude+RR\output_solitude_rr\`.
 
-(2) Executing the following command, with experimental results in `\baselines\Solitude+RR\output_solitude_rr.txt`. 
+(2) Executing the following command, with experimental results in `.\baselines\Solitude+RR\output_solitude_rr.txt`. 
 ```
 cd \baselines\RGNN+RR>
 python run_solitude_rr.py --dataset cora --x_steps 4 --y_steps 2 --all_eps 8 --eps_rate 0.05 --y_eps 2
