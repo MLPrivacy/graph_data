@@ -18,8 +18,9 @@ python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_ra
 (2) Executing the command specified in each baseline's `README`, with experimental results in `\baselines\{baselines name}\output_{baselines name}.txt`. 
 
 
-
 ----------------------------------
+----------------------------------
+这里的内容可以考虑下是否需要这么具体？
 #### **LPGNN+RR**  
 (1) Running the Bash script: `run_lpgnn_rr.sh`, with experimental results in `\baselines\LPGNN+RR\output_lpgnn_rr\`.
 
