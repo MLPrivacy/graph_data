@@ -1,6 +1,6 @@
 - The Bash script failed because the `--epsilon_rate` parameter should take the value of `${eps_r}`, but it was incorrectly assigned the computed value of `${er}`, resulting in a negative privacy budget for labels and an invalid `delta_f` in the Gaussian noise configuration. (Review A1)
 
-- The execution and output files of the baselines are stored in their respective `baselines` directories. (Review A2)  
+- The execution and output files for the baselines are stored in their respective `baselines` directories, with each baseline executed using the command specified in its corresponding `README`.
 
 - We have submitted an updated artifact to Zenodo at [https://doi.org/10.5281/zenodo.14710401](https://doi.org/10.5281/zenodo.14710401), which includes newly created Bash scripts for both DPA-GNN and the baselines. The experimental results can be reproduced using either of the following methods: (1) running the provided Bash scripts or (2) executing commands manually, as detailed below.  
 
