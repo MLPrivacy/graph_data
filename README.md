@@ -26,7 +26,7 @@ python train.py --c_rate 0.8 --layerx 10 --layery 8 --epsilon_all 8 --epsilon_ra
 
 (2) Execute the following command. The experimental results will be stored in `./baselines/LPGNN+RR/output_lpgnn_rr.txt`.  
 ```
-cd \baselines\LPGNN+RR>
+cd /baselines/LPGNN+RR>
 python run_lpgnn_rr.py --dataset cora --x_steps 2 --y_steps 2 --all_eps 8 --eps_rate 0.05 --y_eps 1  
 ```
 
@@ -35,7 +35,7 @@ python run_lpgnn_rr.py --dataset cora --x_steps 2 --y_steps 2 --all_eps 8 --eps_
 
 (2) Execute the following command manually. The experimental results will be stored in `./baselines/RGNN+RR/output_rgnn_rr.txt`.  
 ```
-cd \baselines\RGNN+RR>
+cd /baselines/RGNN+RR>
 python run_rgnn_rr.py --dataset cora --cols_to_group 20 --all_eps 8 --eps_rate 0.05 --y_eps 1.5 --xhops 4 --yhops 2 --num_clusters 32 --alpha 1 
 ```
 
@@ -45,6 +45,6 @@ python run_rgnn_rr.py --dataset cora --cols_to_group 20 --all_eps 8 --eps_rate 0
 (2) Execute the following command. The experimental results will be stored in `./baselines/Solitude+RR/output_solitude_rr.txt`.  
 
 ```
-cd \baselines\Solitude+RR>
+cd /baselines/Solitude+RR>
 python run_solitude_rr.py --dataset cora --x_steps 4 --y_steps 2 --all_eps 8 --eps_rate 0.05 --y_eps 2
 ```
