@@ -52,7 +52,7 @@ python run_solitude_rr.py --dataset cora --x_steps 4 --y_steps 2 --all_eps 8 --e
 
 
 
-We submit an updated artifact to Zenodo at [https://doi.org/10.5281/zenodo.14710401](https://doi.org/10.5281/zenodo.14710401), which updates all instances of the `torch.load()` function by setting the `weights_only` parameter to `False`. Additionally, we create the `run_utility-privacy.sh` script, which generates results stored in the `results.csv` file. These results correspond to the data presented in Table 3 of the paper, with a subset provided below.
+We thank the reviewer for the constructive feedback. We submit an improved artifact to Zenodo at [https://doi.org/10.5281/zenodo.14710401](https://doi.org/10.5281/zenodo.14710401), which updates all instances of the `torch.load()` function by setting the `weights_only` parameter to `False`. Additionally, we create the `run_utility-privacy.sh` script, which generates results stored in the `results.csv` file. These results correspond to the data presented in Table 3 of the paper, with a subset provided below.
 
 
 |Method | Dataset | $\varepsilon$  | $\varepsilon_h$ | Accuracy |
