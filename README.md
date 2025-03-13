@@ -49,3 +49,23 @@ python run_rgnn_rr.py --dataset cora --cols_to_group 20 --all_eps 8 --eps_rate 0
 cd /baselines/Solitude+RR>
 python run_solitude_rr.py --dataset cora --x_steps 4 --y_steps 2 --all_eps 8 --eps_rate 0.05 --y_eps 2
 ```
+
+
+
+We submit an updated artifact to Zenodo at [https://doi.org/10.5281/zenodo.14710401](https://doi.org/10.5281/zenodo.14710401), which updates all instances of the `torch.load()` function by setting the `weights_only` parameter to `False`. Additionally, we create the `run_utility-privacy.sh` script, which generates results stored in the `results.csv` file. These results correspond to the data presented in Table 3 of the paper, with a subset provided below.
+
+
+|Method | Dataset | $\varepsilon$  | $\varepsilon_h$ | Accuracy |
+------------|-----------|-------------|-------------|-----------
+DPA-GNN     |cora       |10 |5%$\varepsilon$ |78.5 +- 1.47 
+DPA-GNN     |cora      |10 | 20%$\varepsilon$  |78.1 +- 1.8
+Solitude+RR  |cora      |10  |5%$\varepsilon$  |62.3 +- 2.81
+Solitude+RR  |cora      |10 |20%$\varepsilon$  |36.6 +- 5.07
+LPGNN+RR     |cora      |10  |5%$\varepsilon$  |60.8 +- 4.02
+LPGNN+RR     |cora      |10  |20%$\varepsilon$ |41.3 +- 4.03
+RGNN+RR      |cora      |10  |5%$\varepsilon$  |54.8 +- 2.81
+RGNN+RR      |cora      |10  |20%$\varepsilon$ |37.5 +- 3.44
+
+
+```
+
