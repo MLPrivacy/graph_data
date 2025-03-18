@@ -67,5 +67,28 @@ RGNN+RR      |cora      |10  |5%$\varepsilon$  |54.8 +- 2.81
 RGNN+RR      |cora      |10  |20%$\varepsilon$ |37.5 +- 3.44
 
 
+
+————————————————————————————————————————————————————————————————————————————————————————
+
+
+We sincerely appreciate the time and effort you have devoted to enhancing the quality of our artifact. Below are our detailed responses to your suggestions.
+
+@ A7:
+The installation issue with `torch-sparse` is caused by compatibility problems between the newer version of Python and the older version of Torch.
+To ensure the stability of the experimental execution, we recommend running the artifact in a fixed environment. The required package configuration is as follows:
 ```
+- Python == 3.8.18
+- Torch == 2.1.0
+- Torch-Geometric == 2.4.0
+- Torch-Scatter == 2.1.2
+- Torch-Sparse == 0.6.18
+- Numpy == 1.24.4
+- Pandas == 2.0.3
+- Scikit-learn == 1.3.2
+- Scipy == 1.8.0
+```
+@ A8:
+We submit the updated artifact to Zenodo at https://doi.org/10.5281/zenodo.14710401. This version includes the Bash scripts for experiments [E1]-[E10], with the results stored in CSV files within the `./output` directory. Due to time constraints, we are unable to provide the scripts for generating the figures in the paper in a timely manner, and we sincerely apologize for the inconvenience caused by this delay. We will complete the remaining work as soon as possible and include the full scripts in future updates. 
+
+
 
