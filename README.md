@@ -68,7 +68,10 @@ RGNN+RR      |cora      |10  |20%$\varepsilon$ |37.5 +- 3.44
 
 
 
-————————————————————————————————————————————————————————————————————————————————————————
+----------------------------------
+----------------------------------
+----------------------------------
+----------------------------------
 
 
 We sincerely appreciate the time and effort you have devoted to enhancing the quality of our artifact. Below are our detailed responses to your suggestions.
