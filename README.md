@@ -88,7 +88,9 @@ To ensure the stability of the experimental execution, we recommend running the 
 - Scipy == 1.8.0
 ```
 @ A8:
-We submit the updated artifact to Zenodo at https://doi.org/10.5281/zenodo.14710401. This version includes the Bash scripts for experiments [E1]-[E10], with the results stored in CSV files within the `./output` directory. Due to time constraints, we are unable to provide the scripts for generating the figures in the paper in a timely manner, and we sincerely apologize for the inconvenience caused by this delay. We will complete the remaining work as soon as possible and include the full scripts in future updates. 
+We submit the updated artifact to Zenodo at https://doi.org/10.5281/zenodo.14710401. This version includes the Bash scripts for experiments [E1]-[E10], with the results stored in CSV files within the `./output` directory. 
+The comparison methods for the ablation experiments are provided in the original code repository. We have also included the relevant information from the paper and the repository link in the README file under the ./baselines directory. Please note that our artifact does not include this part of the content.
+Due to time constraints, we are unable to provide the scripts for generating the figures in the paper in a timely manner, and we sincerely apologize for the inconvenience caused by this delay. We will complete the remaining work as soon as possible and include the full scripts in future updates. 
 
 
 
