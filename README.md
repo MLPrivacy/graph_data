@@ -74,7 +74,7 @@ RGNN+RR      |cora      |10  |20%$\varepsilon$ |37.5 +- 3.44
 ----------------------------------
 
 
-We sincerely appreciate the time and effort you have devoted to enhancing the quality of our artifact. Below are our detailed responses to your suggestions.
+We sincerely appreciate the time and effort you have devoted to enhancing the quality of our artifact. Below are our detailed responses to your questions.
 
 @ A7:
 The installation issue with `torch-sparse` is caused by compatibility problems between the newer version of Python and the older version of Torch.
@@ -92,7 +92,7 @@ To ensure the stability of the experimental execution, we recommend running the 
 ```
 @ A8:
 We submit the updated artifact to Zenodo at https://doi.org/10.5281/zenodo.14710401. This version includes the Bash scripts for experiments [E1]-[E10], with the results stored in CSV files within the `./output` directory. 
-Our artifact does not include the source code for the ablation experiment comparison methods; however, we provide the link to the original repository for these methods in the `README` file under `the ./baselines` directory.   
+Our artifact does not include the source code for the comparison methods used in the ablation experiments; however, links to the original repositories for these methods are provided in the `./baselines/README` file.   
 Due to time constraints, we are unable to provide the scripts for generating the figures in the paper in a timely manner, and we sincerely apologize for the inconvenience caused by this delay. We will complete the remaining work as soon as possible and include the full scripts in future updates. 
 
 
